@@ -1,0 +1,61 @@
+X:/ece154/lab5/alu.v {1 {vlog -work work -novopt -sv -covercells -coverExcludeDefault -nocoverfec -nocovershort -cover sbceft3 -stats=none X:/ece154/lab5/alu.v
+Model Technology ModelSim SE-64 vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}} X:/ece154/lab5/tb.v {1 {vlog -work work -novopt -sv -covercells -coverExcludeDefault -nocoverfec -nocovershort -cover sbceft3 -stats=none X:/ece154/lab5/tb.v
+Model Technology ModelSim SE-64 vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module tb
+
+Top level modules:
+	tb
+
+} {} {}} X:/ece154/lab5/datapath_modules.v {1 {vlog -work work -novopt -sv -covercells -coverExcludeDefault -nocoverfec -nocovershort -cover sbceft3 -stats=none X:/ece154/lab5/datapath_modules.v
+Model Technology ModelSim SE-64 vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module regfile
+-- Compiling module flopr
+-- Compiling module sign_ext
+-- Compiling module zero_ext
+-- Compiling module sl2
+-- Compiling module mux2
+-- Compiling module fivebitmux2
+-- Compiling module adder
+
+Top level modules:
+	regfile
+	flopr
+	sign_ext
+	zero_ext
+	sl2
+	mux2
+	fivebitmux2
+	adder
+
+} {} {}} X:/ece154/lab5/mipstop.v {1 {vlog -work work -novopt -sv -covercells -coverExcludeDefault -nocoverfec -nocovershort -cover sbceft3 -stats=none X:/ece154/lab5/mipstop.v
+Model Technology ModelSim SE-64 vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module top
+
+Top level modules:
+	top
+
+} {} {}} X:/ece154/lab5/mipsmem.v {1 {vlog -work work -novopt -sv -covercells -coverExcludeDefault -nocoverfec -nocovershort -cover sbceft3 -stats=none X:/ece154/lab5/mipsmem.v
+Model Technology ModelSim SE-64 vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module dmem
+-- Compiling module imem
+
+Top level modules:
+	dmem
+	imem
+
+} {} {}} X:/ece154/lab5/mips.v {1 {vlog -work work -novopt -sv -covercells -coverExcludeDefault -nocoverfec -nocovershort -cover sbceft3 -stats=none X:/ece154/lab5/mips.v
+Model Technology ModelSim SE-64 vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module mips
+-- Compiling module controller
+-- Compiling module datapath
+
+Top level modules:
+	mips
+
+} {} {}}
